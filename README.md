@@ -4,6 +4,7 @@ A movie encyclopedia website built using Bootstrap and jQuery, API taken from Th
 
 To see live website, visit https://rafael-movie-database-website.vercel.app/
 
-Login Credentials
+Login Credentials:
+
 Username: User
 Password: uaspti
