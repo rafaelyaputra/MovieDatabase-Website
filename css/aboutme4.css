@@ -1,0 +1,66 @@
+#tmdblogo {
+  height: 50px;
+  width: auto
+}
+
+body {
+  background-image: url("../images/moviewallpaper.jpg");
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 30px 16px;
+  background: black;
+
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(220,220,220);
+  margin-top: 10px;
+  font-family: 'Hammersmith One';
+}
+
+#header{
+  text-align: center;
+  color: rgb(0,0,0);
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Hammersmith One';font-size: 22px;
+  padding-left: 30px;
+  float: right;
+}
+
+#rafael{
+	  width: 40%;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+    margin:auto;
+    border: 5px solid;
+}
+
+.aboutmeContents{
+  text-align: center;
+}
+
+#aboutMeParagraph{
+  width: 50%;
+  padding-bottom: 10px;
+}

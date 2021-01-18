@@ -1,0 +1,59 @@
+/*Navbar*/
+#tmdblogo {
+    height: 50px;
+    width: auto
+}
+
+/* Bordered form */
+body {
+   background-image: url("../images/moviewallpaper.jpg");
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 35%;
+    text-align: center;
+    font-family: 'Hammersmith One';font-size: 22px;
+}
+
+.vertical-center{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Set a style for all buttons */
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 8px;
+}
+
+input[type=button]:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+
+#moviedbimage {
+    width: 30%;
+    height:auto;
+}

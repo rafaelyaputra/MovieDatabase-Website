@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The MovieDatabase</title>
+	
+		<link rel="stylesheet" href="css/login.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'>
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	<body>
+
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-expand-lg bg-dark sticky-top" id="myHeader">
+			<div class="col-12" align="center">
+			  <img src="images/tmdb.png" alt="tmdblogo" class="mx-auto m-2" id="tmdblogo" />
+			</div>
+		</nav>
+
+		<br>
+
+		<!--Login Form-->
+		<div class="container vertical-center">
+			<form class="rounded mx-auto p-3 bg-white justify-content-center" method="post" action="#">
+					<h2 class="text-center">Welcome to The Movie Database</h2>
+					<div class="row justify-content-center">
+							<img src="images/moviedb.png" alt="Avatar" class="rounded" id="moviedbimage">
+					</div>
+	  				<div class="row m-3 justify-content-around">
+						<label>Username :</label>
+						<input type="text" name="demail" id="username" >
+					</div>
+					<div class="row m-3 justify-content-around">
+						<label>Password :</label>
+						<input type="password" name="password" id="password" >
+					</div>
+					<div class="row">
+						<input class="p-2 mx-auto" type="button" name="login" id="login" value="Login">
+					</div>
+				</form>
+		</div>
+	</body>
+</html>

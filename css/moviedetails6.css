@@ -1,0 +1,74 @@
+/*Navbar*/
+#tmdblogo {
+  height: 50px;
+  width: auto
+}
+
+body {
+  background-image: url("../images/moviewallpaper.jpg");
+  /* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header {
+  padding: 30px 16px;
+  background: black;
+}
+
+.heading{
+  text-align: center;
+  font-family: 'Hammersmith One';
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Hammersmith One';font-size: 22px;
+  padding-left: 30px;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(220,220,220);
+  margin-top: 10px;
+}
+
+.dataheader{
+  text-align: center;
+  font-size: 20px;
+}
+
+tr{
+  border-radius:5px;
+}
+
+table,td,th{
+  border:5px solid;
+  border-color: rgb(0, 0, 0);
+  font-family: 'Hammersmith One';
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse; width:100%; 
+}
+
+#header{
+  text-align: center;
+  font-family: 'Hammersmith One';
+  color: rgb(0,0,0);
+}
+

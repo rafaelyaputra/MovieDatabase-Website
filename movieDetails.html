@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The MovieDatabase</title>
+	<link rel="stylesheet" href="css/moviedetails6.css"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'>
+	<script type="text/javascript" src="js/moviedetails5.js"></script>
+</head>
+<body>
+
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-expand-lg bg-dark sticky-top" >
+		<div class="col-md-4">
+
+		</div>
+		<div class="col-md-4 col-sm-6" align="center">
+			<img src="images/tmdb.png" alt="tmdblogo" class="mx-auto m-2" id="tmdblogo" />
+		</div>
+		<div class="col-md-4 col-sm-6 pr-5">
+			<ul class="navbar-nav justify-content-end">
+				<li class="nav-item active">
+					<a href="javascript:history.back()" class="nav-link">Back </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--Movie Details Table-->
+	<div class="container p-3" id="app">
+		<div class="mx-auto p-2">
+			<h1 id="header"> Movie Details </h1>
+		</div>
+		
+		<table id="MovieDetails" class="bg-white">
+			<thead>
+				<tr>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Poster</th>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Movie</th>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Released</th>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Overview</th>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Budget</th>
+					<th style="width: 16.66%;" class="col-md-2 col-lg-2 col-sm-12 dataheader">Produced By</th>
+				</tr>
+			</thead>
+			<tbody id="MovieDetailsTable">
+				
+			</tbody>
+		</table>
+		<br>
+	</div>
+
+</body>
+</html>
