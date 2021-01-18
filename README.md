@@ -7,4 +7,5 @@ To see live website, visit https://rafael-movie-database-website.vercel.app/
 Login Credentials:
 
 Username: User
+
 Password: uaspti
