@@ -57,3 +57,20 @@ input[type=button]:hover{
     width: 30%;
     height:auto;
 }
+
+footer{
+    background-color: black;
+    justify-items: center;
+    color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: -10px;
+}
+
+footer p {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
